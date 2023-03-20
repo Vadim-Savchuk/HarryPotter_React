@@ -1,0 +1,35 @@
+.uniqPage{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--uniq-bg);
+}
+
+.elemsList {
+    gap: 20px;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    max-height: 720px;
+}
+
+.info{
+    font-size: 30px;
+    margin-top: 30px;
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 1229px) {
+    .uniqPage{
+        height: auto;
+    }
+
+    .elemsList {
+        height: auto;
+        max-height: none;
+        justify-content: center;
+    }
+}

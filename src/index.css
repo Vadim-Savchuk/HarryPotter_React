@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --dod-color: #000000;
+    --main-color: #ffffff;
+
+    --search-bg: rgb(255, 255, 255, 0.6);
+    --link-menu-color: rgb(0, 0, 0, 0.6);
+    
+    --home-bg: url('./Pages/HomePage/img/dark.jpg');
+    --people-bg: url('./Pages/PeoplePage/img/dark.jpg');
+    --person-bg: url('./Pages/PersonPage/img/dark.jpg');
+    --spells-bg: url('./Pages/SpellsPage/img/dark.jpg');
+    --uniq-bg: url('./Pages/UniqPage/img/dark.jpg');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    height: auto;
+    font-family: sans-serif;
+    background-color: var(--dod-color);
 }

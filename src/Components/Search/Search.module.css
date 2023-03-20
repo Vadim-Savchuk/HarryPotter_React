@@ -1,0 +1,48 @@
+.searchOffer{
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 25px;
+}
+
+.searchOffer input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: var(--dod-color);
+    background-color: var(--search-bg);
+}
+
+.searchOffer input::placeholder{
+    color: var(--dod-color);
+}
+
+.searchList{
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    background-color: var(--main-color)
+}
+
+.searchList a{
+    color: var(--dod-color);
+}
+
+.searchList li{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.searchList li:hover{
+    color: var(--main-color);
+    background-color: var(--dod-color);
+}
+
+@media screen and (max-width: 420px) {
+    .searchOffer{
+        max-width: 100%;
+        margin: 10px auto;
+    }
+}

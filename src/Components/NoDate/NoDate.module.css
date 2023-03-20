@@ -1,0 +1,8 @@
+.errorDate{
+    margin-top: 10px;
+}
+
+.errorDate h2{
+    font-size: 40px;
+    color: var(--main-color);
+}

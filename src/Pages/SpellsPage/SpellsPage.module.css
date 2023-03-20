@@ -1,0 +1,8 @@
+.spellsPage{
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--spells-bg);
+}

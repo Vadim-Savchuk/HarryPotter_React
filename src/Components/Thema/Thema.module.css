@@ -1,0 +1,29 @@
+.thema {
+    display: flex;
+    overflow: hidden;
+    margin-left: auto;
+    border-radius: 25px;
+    border: 2px solid var(--dod-color);
+}
+
+.thema button {
+    width: 100%;
+    max-width: 80px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: var(--dod-color);
+}
+
+.thema button:first-child{
+    color: var(--dod-color);
+    background-color: var(--main-color);
+}
+
+.thema button:last-child{
+    color: var(--main-color);
+    background-color: var(--dod-color);
+}
+
+.thema button:not(:last-child){
+    border-right: 2px solid var(--dod-color);
+}

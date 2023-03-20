@@ -1,0 +1,66 @@
+.homePage {
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.2s;
+    background-image: var(--home-bg);
+}
+
+.nav {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linkMenu {
+    width: 100%;
+    font-size: 30px;
+    max-width: 400px;
+    transition: 0.2s;
+    padding: 10px 20px;
+    text-align: center;
+    color: var(--main-color);
+    background-color: var(--link-menu-color);
+}
+
+.active{
+    background-color: var(--dod-color);
+}
+
+.linkMenu:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.linkMenu:hover {
+    background-color: var(--dod-color);
+}
+
+.card{
+    width: 45px;
+    margin-left: auto;
+}
+
+.card img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage{
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .homePage{
+        overflow: auto;
+    }
+    
+    .nav{
+        min-height: 0px;
+        margin-top: 30px;
+    }
+}

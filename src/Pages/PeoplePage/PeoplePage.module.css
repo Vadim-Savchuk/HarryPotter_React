@@ -1,0 +1,14 @@
+.peoplePage{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--people-bg);
+}
+
+@media screen and (max-width: 1229px) {
+    .peoplePage{
+        height: auto;
+    }
+}

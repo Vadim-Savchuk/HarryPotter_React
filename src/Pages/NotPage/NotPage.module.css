@@ -1,0 +1,26 @@
+.notPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./img/notPage.jpg');
+}
+
+.notPage .offer{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.notPage .offer h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
