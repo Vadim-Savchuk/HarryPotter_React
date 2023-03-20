@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HarryPotter_React/static/css/main.7bb76801.css",
+    "main.js": "/HarryPotter_React/static/js/main.106219ad.js",
+    "static/media/dark.jpg": "/HarryPotter_React/static/media/dark.62f7309c8dfe2decf56f.jpg",
+    "static/media/notPage.jpg": "/HarryPotter_React/static/media/notPage.c6dda9bb90fca849f88a.jpg",
+    "static/media/Like.png": "/HarryPotter_React/static/media/Like.eb80668c7638b9221618.png",
+    "index.html": "/HarryPotter_React/index.html",
+    "main.7bb76801.css.map": "/HarryPotter_React/static/css/main.7bb76801.css.map",
+    "main.106219ad.js.map": "/HarryPotter_React/static/js/main.106219ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bb76801.css",
+    "static/js/main.106219ad.js"
+  ]
+}
